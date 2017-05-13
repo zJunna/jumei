@@ -1,0 +1,88 @@
+*{margin:0;padding:0;}
+
+li{list-style: none;}
+
+a{text-decoration:none;}
+i{font-style:normal;}
+img{border: none;}
+
+#en-head{width:100%;height:85px;margin-bottom: 50px;}
+#en-head .en-head-cen{width:960px;height:85px;margin:0 auto;}
+#en-head .en-head-cen .en-logo img{float:left;}
+#en-head .en-head-cen .en-logo-box{height:31px;float:right;margin-top:35px;}
+#en-head .en-head-cen .en-logo-box .anti-fake {height:31px;float: left;}
+#en-head .en-head-cen .en-logo-box .anti-fake a{margin-right:30px;}
+#en-man .bg-map{width:960px;height:418px;border-bottom:50px;margin:0 auto;background:url(../img/loginPic.jpg)}
+/*form*/
+#en-man  .bg-map .en-menu-box{width:346px;float:right;border:1px solid #ADADAD;}
+#en-man  .bg-map .en-menu{width:300px;line-height: 60px;margin:0 auto;}
+#en-man  .bg-map .en-menu .en-man-text{float:right;font-size:12px;}
+#en-man  .bg-map .en-menu h1{font-size:20px;color:#e31256;font-weight: 400;}
+
+
+
+
+
+
+
+
+#en-man  .bg-map #form-box{width:300px;margin:0 auto;margin-top:10px;}
+#en-man  .bg-map #form-box .br-name{height:44px;border:1px solid #cfcfcf;line-height: 44px;}
+#en-man  .bg-map #form-box .br-pwd{height:44px;border:1px solid #cfcfcf ;line-height: 44px;}
+#en-man  .bg-map #form-box p{display:block;width:100%;height:20px;font-size:8px;margin-left:10px;display: none;}
+
+#en-man  .bg-map #form-box label img{vertical-align:middle;}
+
+#en-man  .bg-map #form-box .use-box  input{width:260px;height:25px;border: 0;}
+
+#en-man  .bg-map #form-box .paw-box  input{width:260px;height:25px;border: 0;}
+#en-man  .bg-map #form-box [type="checkbox"]{margin-top:20px ;}
+#en-man  .bg-map #form-box span{margin-top:20px }
+#en-man  .bg-map #form-box [type="submit"]{width:300px;height:40px;margin-top:30px;background:#f8296d;font-size:14px;margin:0 auto;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#en-man  .bg-map .en-menu-box #else{width:300px;margin:0 auto;padding-top:10px;padding-bottom: 5px;}
+
+#en-man  .bg-map .en-menu-box #else a{text-indent:-9999px;background-image: url(../img/icon_light.jpg);background-repeat: no-repeat;display: inline-block;width:43px;height:43px;overflow:hidden;margin-left:12px;float: left;}
+
+#en-man  .bg-map .en-menu-box #else .a2{background-position: -57px 0;}
+
+#en-man  .bg-map .en-menu-box #else .a3{background-position: -114px 0;}
+
+#en-man  .bg-map .en-menu-box #else .a4{background-position: -169px 0;}
+#en-man  .bg-map .en-menu-box #else .a5{background-position: -224px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*登录表单尾部*/
+#en-footer{width:100%;height:220px;margin-top:20px;}
+#en-footer #en-footer-top{width:1090px;margin: 0 auto;}
+#en-footer #en-footer-top .text-p{font-size:12px;line-height:23px;text-align: center;}
+#en-footer #en-footer-top .fotter-copy-logo{height: 50px;padding-top:20px;}
+
+#en-footer #en-footer-top .en-footer-img{width:650px;height:60px;margin:0 auto;}

@@ -1,0 +1,32 @@
+/*
+Error: Indenting at the beginning of the document is illegal.
+        on line 1 of enter.sass
+
+1:  @charset "UTF-8";
+2: #en-head{
+3:     width:100%;
+4:     height:85px;
+5:     background:#ccc;
+6: }
+
+Backtrace:
+enter.sass:1
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:461:in `block in tabulate'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each_with_index'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `tabulate'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Ruby21/bin/sass:23:in `load'
+C:/Ruby21/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Indenting at the beginning of the document is illegal.\A         on line 1 of enter.sass\A \A 1:  @charset \"UTF-8\";\A 2: #en-head{\A 3:     width:100%;\A 4:     height:85px;\A 5:     background:#ccc;\A 6: }"; }

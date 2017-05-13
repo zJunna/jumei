@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/perfect_startMove.js"></script>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/animate_buffer.js"></script>
+		<script src="js/index.js"></script>
+
+		<script type="text/javascript">
+		</script>
+
+	</head>
+
+	<body>
+
+		<!--------------------------头部导航-登录。。。--------------------------->
+		<div id="header">
+
+			<div class="header-top-nav">
+				<div class="center">
+					<ul class="center-left">
+						<li>欢迎来到聚美!</li>
+						<li>
+							<a href="">请登录</a>
+						</li>
+						<li>
+							<a href="">快速注册</a>
+						</li>
+					</ul>
+
+					<div class="center-right-box">
+
+						<ul class="center-right">
+							<li>
+								<a href="#">正品保证</a>
+							</li>
+							<li>
+								<a href="#">订单查询</a>
+							</li>
+							<li><img src="img/heart.png">
+								<a href="#">收藏的品牌</a>
+							</li>
+
+							<!--我的聚美下拉列表-->
+							<li>
+								<a href="#" class="my-pull1">我的聚美
+									<img src="img/triangle.png">
+								</a>
+
+								<div class="my-pull">
+									我的订单<br/> 我的现金券
+									<br/> 我的现金券
+									<br/> 我的红包
+									<br/> 我的余额
+									<br/> 我的提现退款
+									<br/> 我的收藏
+									<br/> 我的心愿单
+									<br/> 会员中心
+									<br/> 礼品卡兑换
+
+								</div>
+
+								<i class="line">|</i>
+							</li>
+
+							<li>
+								<a><img src="img/phone.png"></a>
+								<a href="#">手机聚美</a>
+
+								<em class="line">|</em>
+							</li>
+							<!------------------更多下拉菜单------------------------>
+							<li>
+								<a href="#" class="more">更多
+									<img src="img/triangle.png">
+								</a>
+
+								<div class="more-menu">
+									邀请好友<br/> 加入收藏
+									<br/> 新浪微博
+									<br/> 聚美微信
+									<br/> 百度贴吧
+									<br/> 腾讯微博
+									<br/> 人人公众主页
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="header-center-log">
+				<div class="center-log">
+
+					<div class="logo">
+						<a href="#"><img src="img/logo_new_v1.jpg"></a>
+					</div>
+
+					<div class="search-box">
+						<form>
+							<input type="text" name="secrch" class="secrch" value="" />
+							<input type="submit" class="sub" value="搜索" />
+
+						</form>
+
+						<ul class="hot-word">
+							<li>
+								<a href="#">保湿</a>
+								<i class="line"></i>
+							</li>
+
+							<li>
+								<a href="#">面膜</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">洗面奶</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">补水</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">香水</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">眼霜</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">口红</a>
+								<i class="line"></i>
+							</li>
+
+							<li>
+								<a href="#">护肤套装</a>
+								<i class="line"></i>
+							</li>
+							<li>
+								<a href="#">BB霜</a>
+							</li>
+						</ul>
+
+					</div>
+
+					<div class="cart">
+						<a href="#"><img src="img/cart.gif" />
+							<span class="text">去购物结束</span>
+							<span class="">
+
+						</span>
+						</a>
+
+					</div>
+
+				</div>
+
+				<div class="header-bottom-nav">
+					<div class="center-bottom">
+
+						<ul class="center-left">
+							<li class="wrap">
+								<a href="#">首页</a>
+							</li>
+							<li class="speed">
+								<a href="#">极速免税店</a>
+							</li>
+							<li>
+								<a href="#">母婴特卖</a>
+							</li>
+							<li class="beauty-menu">
+								<a href="#">美妆商城</a>
+								<i><img src = "img/popheadarrow01.png"></i>
+
+								<div class="bd-menu-box">
+									<div class="left">
+										<a href="#"><img src="img/30573_254_135_003-web.jpg" /></a>
+										<a href="#"><img src="img/30573_254_135_005-web.jpg" /></a>
+									</div>
+
+									<div class="right">
+										<div class="right-top">
+
+											<dl>
+												<dt><img src ="img/masonry5_03.png" >国际大牌</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+											<dl>
+												<dt><img src ="img/masonry5_03.png" >护肤</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+											<dl style="border:none">
+												<dt><img src ="img/masonry5_03.png" >彩妆</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+										</div>
+										<div class="right-bottom">
+
+											<dl>
+												<dt><img src ="img/masonry5_03.png" >香氛</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+											<dl>
+												<dt><img src ="img/masonry5_03.png" >男士专区</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+											<dl style="border:none">
+												<dt><img src ="img/masonry5_03.png" >热门搜索</dt><br/>
+												<dd>
+													<a href="#">兰蔻</a>
+												</dd>
+												<dd>
+													<a href="#">娇韵诗</a>
+												</dd>
+												<dd>
+													<a href="#">伊丽莎白雅顿</a>
+												</dd>
+												<dd>
+													<a href="#">雅诗兰黛</a>
+												</dd>
+												<dd>
+													<a href="#">欧莱雅</a>
+												</dd>
+												<dd>
+													<a href="#">兰芝</a>
+												</dd>
+												<!--<dd><a href = "#">倩碧</a></dd>
+													<dd><a href = "#">SK-II</a></dd>
+													<dd><a href = "#">雅漾</a></dd>
+													<dd><a href = "#">菲诗小铺</a></dd>
+													<dd><a href = "#">悦诗风吟</a></dd>-->
+											</dl>
+
+										</div>
+									</div>
+
+								</div>
+							</li>
+
+							<li>
+								<a href="#">国际轻奢</a>
+							</li>
+							<li>
+								<a href="#">服装运动</a>
+							</li>
+							<li>
+								<a href="#">鞋包配饰</a>
+							</li>
+						</ul>
+						<ul class="anti-fake">
+							<li>
+								<a href="#"><img src="img/z_01new.jpg" </a>
+							</li>
+							<li>
+								<a href="#"><img src="img/z02.jpg" </a>
+							</li>
+							<li>
+								<a href="#"><img src="img/z03.jpg" </a>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--购物车侧边栏-->
+
+		<div id="sidebar-box">
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<!-------------------------首页轮播图----------------------->
+		<div class="banner" id="banner">
+			<!-- 按钮 -->
+			<ol>
+				<li class="banner-active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ol>
+			<!-- 图片 -->
+			<ul>
+				<li>
+					<a href="#"><img src="img/132612_1920_350_002-web.jpg" alt="广告一" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/132632_1920_350_002-web.jpg" alt="广告二" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/132634_1920_350_002-web.jpg" alt="广告三" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/5909a463d1ffb_1920_350.jpg" alt="广告四" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/59113c0e50404_1920_374.jpg" alt="广告四" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/132612_1920_350_002-web.jpg" alt="广告一" /></a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<div id="tab-nav">
+
+			<a href="#" class="col ">
+				<div class="left">今日疯抢</div>
+			</a>
+			<a href="#" class="col col1">
+				<div clsss="right">明日预告</div>
+			</a>
+
+		</div>
+
+		<!--<ul class= "tab-nav">
+				<li class = "tab-day"><a href="#" class = "today">今日疯抢</a>
+					<i></i>
+				</li>
+
+				<li class = "tab-m" ><a href="#" class = "tomorrow">明日预告</a></li>
+
+			</ul>-->
+
+		<!-----------------------今日疯抢      明天预告-------------------------->
+
+		<div id="man">
+			<div class="man-cen">
+
+
+				<!-- 商品列表 -->
+
+				<div class="man-center-img">
+					<ul id="today1">
+
+
+
+					</ul>
+
+					<ul class="tomorrow">
+						<li>
+							<a href="#"><img src="img/133056_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133054_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133048_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133046_535_212_002-web.jpg" /></a>
+						</li>
+
+						<li>
+							<a href="#"><img src="img/133056_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133054_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133048_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133046_535_212_002-web.jpg" /></a>
+						</li>
+
+						<li>
+							<a href="#"><img src="img/133056_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133054_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133048_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133046_535_212_002-web.jpg" /></a>
+						</li>
+
+						<li>
+							<a href="#"><img src="img/133056_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133054_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133048_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133046_535_212_002-web.jpg" /></a>
+						</li>
+
+						<li>
+							<a href="#"><img src="img/133056_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133054_535_212_002-web.jpg" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/133048_535_212_002-web.jpg" /></a>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+		
+
+		<!--每日必看    上-->
+
+		<div id="everyday-top"></div>
+
+		<!--每日必看 -->
+
+		<div id="to-1090">
+			<h2></h2>
+
+			<!--每日必看图-->
+			
+			<div id="day-tab-cen-box">
+				
+			</div>
+			
+			<!--<div id="day-tab-cen">
+				<a href="#"><img src="img/2061112_dx_1500_400.jpg"/></a>
+				
+				<div class="tab-cen-text">
+					<div class="time-box">
+						<span id="time-txt">距特卖结束</span>
+						<span>00<i>:</i>00<i>:</i>00<i>:</i>00</span>
+					</div>
+					<a href = "#" id="referral">【香港直邮】娇兰 (Guerlain)法式之吻玫瑰有色唇膏2.8g，（多色可选）娇兰新出以玫瑰花为主题的有色润唇膏，富含玫瑰精油萃取，同时结合了为双唇增色与护理的功效。呵护过的双唇，变得有如玫瑰花瓣般柔软、光滑而鲜嫩；淡淡刷上唇彩后，嘴部立即闪耀著愉悦、温柔而自然的光泽。</a>
+					
+					
+					<div class="price-box">
+						<span id="price">￥199</span>
+						<div class = "all-cart-wrap"><a href="#" class="all-cart" >加入购物车</a></div>
+					</div>
+					
+					
+					<div class="to-g-num">
+						<span id="to-g"><img src = "img/029_big.jpg"></span>
+					
+					<span id="to-num">
+						<i>7</i>
+						人已经购买
+					</span>
+					</div>
+					
+				</div>
+			</div>
+			-->
+			<!--<div id="day-tab-center">
+				
+					<div class="img-box">
+						<a href="#"></a>
+						
+						<div class="count-down-box">
+							<span id="text-time">距特卖结束</span>
+							<span id = "time"> 00&nbsp;<i>:</i>&nbsp;00&nbsp;<i>:</i> 00&nbsp;<i>:</i> &nbsp;00</span>
+						</div>
+						
+						
+						<div class="d-text-box1">
+							<p>【香港直邮】娇兰 (Guerlain)法式之吻玫瑰有色唇膏2.8g，（多色可选）娇兰新出以玫瑰花为主题的有色润唇膏，富含玫瑰精油萃取，同时结合了为双唇增色与护理的功效。呵护过的双唇，变得有如玫瑰花瓣般柔软、光滑而鲜嫩；淡淡刷上唇彩后，嘴部立即闪耀著愉悦、温柔而自然的光泽。</p>
+						</div>
+						
+					</div>
+
+			</div>-->
+
+		</div>
+
+		<br/><br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div id="footer-box">
+
+			<div id="footer-top">
+				<div id="f-t-cen">
+
+					<a href="#">
+						<span class="a1"></span>
+						<span>
+						<b>值得信赖的美妆电商</b>
+						四千万用户信赖
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a2"></span>
+						<span>
+						<b>成功在美上市</b>
+						股票代码NYSE:JMEI
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a3"></span>
+						<span>
+						<b>品牌防伪码</b>
+						支持品牌官网验证
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a4"></span>
+						<span>
+						<b>值得信赖的美妆电商</b>
+						四千万用户信赖
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a5"></span>
+						<span>
+						<b>值得信赖的美妆电商</b>
+						四千万用户信赖
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a6"></span>
+						<span>
+						<b>值得信赖的美妆电商</b>
+						四千万用户信赖
+					</span>
+					</a>
+
+					<a href="#">
+						<span class="a7"></span>
+						<span>
+						<b>值得信赖的美妆电商</b>
+						四千万用户信赖
+					</span>
+					</a>
+
+				</div>
+
+			</div>
+
+			<div id="link-box">
+				<div id="link">
+
+					<ul class="link-a" style="width:190px">
+						<li class="links">服务保障</li>
+						<li>
+							<a href="#">品牌真品防伪码</a>
+						</li>
+						<li>
+							<a href="#">正品保证</a>
+						</li>
+						<li>
+							<a href="#">30天无条件退货</a>
+						</li>
+						<li>
+							<a href="#">7x24小时客服服务</a>
+						</li>
+						<li><span>总裁邮箱ceo@jumei.com</span></li>
+					</ul>
+
+					<ul class="link-b">
+						<li class="links">使用帮助</li>
+						<li>
+							<a href="#">新手指南</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+						</li>
+						<li>
+							<a href="#">用户协议</a>
+						</li>
+					</ul>
+
+					<ul class="link-c">
+						<li class="links">使用帮助</li>
+						<li>
+							<a href="#">新手指南</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+						</li>
+						<li>
+							<a href="#">用户协议</a>
+						</li>
+					</ul>
+					<ul class="link-d">
+						<li class="links">使用帮助</li>
+						<li>
+							<a href="#">新手指南</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+						</li>
+						<li>
+							<a href="#">用户协议</a>
+						</li>
+					</ul>
+					<ul class="link-e">
+						<li class="links">使用帮助</li>
+						<li>
+							<a href="#">新手指南</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+						</li>
+						<li>
+							<a href="#">用户协议</a>
+						</li>
+					</ul>
+
+					<div id="qr-code">
+						<ul class="qr-left">
+							<li class="links">手机聚美</li>
+							<li>
+								<span id="qr-l-pic"></span>
+								<li>下载移动客户端</li>
+							</li>
+						</ul>
+
+						<ul class="qr-left">
+							<li class="links">手机聚美</li>
+							<li>
+								<span id="qr-l-pic"></span>
+								<li>下载移动客户端</li>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="footer-by"></div>
+
+			<div id="footer-cen-cen">
+				<div class="f-c-c">
+					<a href="#">关于聚美优品</a>
+					<a href="#">INVESTOR RELATIONS</a>
+					<a href="#">商家入驻</a>
+					<a href="#">获取更新</a>
+					<a href="#">加入聚美</a>
+					<a href="#">品牌合作专区</a>
+					<a href="#">网站联盟</a>
+					<a href="#">媒体报道</a>
+					<a href="#">商务合作</a>
+				</div>
+
+			</div>
+
+		</div>
+		</div>
+
+		<div id="footer-bottom">
+			<div id="footer-bottom-top">
+				<div class="fb-t-text">
+					COPYRIGHT © 2010-2017 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。 客服热线：400-123-8888
+					<br/> 京公网安备 11010102001226 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照
+				</div>
+
+				<div id="bottom-bt">
+					<div class="bt-bt">
+						<img src="img/footer_btm_icon.png" />
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

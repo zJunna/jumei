@@ -1,0 +1,28 @@
+#header-page{width:100%;height:38px;background: #ADADAD;}
+#header-page #hp-t{width:1090px;height:38px;margin:0 auto;position:relative;background: red;}
+#header-page #hp-t .left li{float: left;line-height: 34px;margin-right:5px;border-left:1px dashed #ccc;}
+#header-page #hp-t .left li a{display: inline-block;margin-left:5px;}
+#header-page #hp-t .left li img{width:65px;height:30px;vertical-align: middle;border:none;}
+
+#header-page #hp-t .right li{float:right;line-height: 34px;margin-right:5px;border-left:1px dashed #ccc;}
+
+#header-page #hp-t .right li a{margin-left:5px;}
+
+
+#header-page #hp-b{width:1090px;height:98px;margin:0 auto;z-index: 0;}
+#header-page #hp-b a{width:250px;height:88px;}
+
+#banner-pag{width:100%;height:500px;position: relative;left:-250px;margin-top:98px;}
+
+#b-ban-b{width:100%;height:155px;background: url(../img/5912bd21052b2_1920_154.jpg) center 0 no-repeat;}
+
+
+#man-pag #m-p-img{width:960px;height:1000px;margin:0 auto;}
+#man-pag #m-p-img ul {width:100%;}
+#man-pag #m-p-img ul li{width:300px;height:438px;display: inline;float: left;margin-right:13px;margin-bottom: 25px;border:1px solid #f8f5f5;}
+
+#man-pag #m-p-img ul li img{width:300px;height:300px;}
+#man-pag #m-p-img ul li .tit{width:300px;height:150px;margin-top: 20px;;}
+
+#man-pag #m-p-img ul li .tit #tit-cart{float: right;width:86px;height:28px;background: #e81a62;}
+
